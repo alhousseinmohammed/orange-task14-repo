@@ -1,0 +1,156 @@
+* {
+    font-family: Arial, Helvetica, sans-serif; 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.numbers {
+    /* background-color: blue; */
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    gap: 5%;
+}
+
+.numbers p {
+    text-align: center;
+}
+
+.number {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.number h1 {
+    /* background-color: orange; */
+    color: rgba(0, 0, 0, 0.826);
+    font-size: 400%;
+    margin-bottom: 5%;
+}
+
+.info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.info > div {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+h3 {margin-top:30%;}
+
+.minecraft .back {
+    padding-top: 5%;
+    background-image: url("https://media.discordapp.net/attachments/1236613782013349969/1244999697282891936/t7.jpg?ex=665727d2&is=6655d652&hm=26aff5fdfb848402680cf4e1b4dd299d1f9c5e4c47a1368bda9eb4154f58e347&=&format=webp&width=881&height=350");
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.minecraft h3 {
+    padding: 2%;
+    background-color: rgba(137, 116, 188, 0.8);
+}
+
+.minecraft p {
+    padding: 2%;
+    background-color: rgba(166,155,193,255);
+}
+
+.bee .back {
+    padding-top: 5%;
+    background-image: url("https://media.discordapp.net/attachments/1236613782013349969/1244999697282891936/t7.jpg?ex=665727d2&is=6655d652&hm=26aff5fdfb848402680cf4e1b4dd299d1f9c5e4c47a1368bda9eb4154f58e347&=&format=webp&width=881&height=350");
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.bee h3 {
+    padding: 2%;
+    background-color: rgba(137, 116, 188, 0.8);
+}
+
+.bee p {
+    padding: 2%;
+    background-color: rgba(166,155,193,255);
+}
+
+.teacher .back {
+    padding-top: 5%;
+    background-image: url("https://media.discordapp.net/attachments/1236613782013349969/1244999697282891936/t7.jpg?ex=665727d2&is=6655d652&hm=26aff5fdfb848402680cf4e1b4dd299d1f9c5e4c47a1368bda9eb4154f58e347&=&format=webp&width=881&height=350");
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.teacher h3 {
+    padding: 2%;
+    background-color: rgba(137, 116, 188, 0.8);
+}
+
+.teacher p {
+    padding: 2%;
+    background-color: rgba(166,155,193,255);
+}
+
+.states .back {
+    padding-top: 5%;
+    background-image: url("https://media.discordapp.net/attachments/1236613782013349969/1244999697282891936/t7.jpg?ex=665727d2&is=6655d652&hm=26aff5fdfb848402680cf4e1b4dd299d1f9c5e4c47a1368bda9eb4154f58e347&=&format=webp&width=881&height=350");
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.states h3 {
+    padding: 2%;
+    background-color: rgba(137, 116, 188, 0.8);
+}
+
+.states p {
+    padding: 2%;
+    background-color: rgba(166,155,193,255);
+}
+
+.projects h2 {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    margin: 1% 0.25%;
+    padding: 0.75%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+div.projects {
+    display: grid;
+    grid-template-areas: ". . . . . . . . . . . .";
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.thanks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.thanks h2 {
+    font-weight: lighter;   
+}
+
+button {
+    background-color: rgb(138, 58, 212);
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 05px;
+    font-size: large;
+
+}
